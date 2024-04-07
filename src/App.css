@@ -1,0 +1,18 @@
+.justIcon {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.justIcon img {
+  width: 700px;
+  margin: 0px;
+  z-index: 0;
+}
+
+@media screen and (max-width: 700px) {
+  .justIcon img {
+    width: 300px;
+  }
+}

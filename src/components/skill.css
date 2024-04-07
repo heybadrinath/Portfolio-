@@ -1,0 +1,107 @@
+.purple {
+  color: white;
+  font-family: "Dongle", sans-serif;
+  text-align: center;
+  padding: 100px 0px 300px 0px;
+  background: url("https://png.pngtree.com/thumb_back/fh260/background/20210427/pngtree-vector-crystal-purple-background-image_653523.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.purple p {
+  text-align: justify;
+  margin: 0px 25%;
+  font-size: 1.5rem;
+}
+
+.purple h1 {
+  font-size: 2rem;
+  font-family: "Artifika", serif;
+}
+
+.skill {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0px;
+  margin: 0px 5%;
+  text-align: center;
+  border-radius: 20px;
+  z-index: 1;
+  margin-top: -200px;
+  background-color: white;
+  font-family: "Dongle", sans-serif;
+  font-size: 1.3rem;
+  border: 1px solid rgb(180, 180, 180);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.iconImg {
+  background-color: rgb(0, 255, 170);
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 90px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.skill div h2 {
+  font-family: "Artifika", serif;
+}
+
+.middle {
+  border-left: 1px solid rgb(180, 180, 180);
+  border-right: 1px solid rgb(180, 180, 180);
+}
+
+.pp {
+  color: #6e07f3;
+}
+
+h2 + p {
+  margin: 0px 15%;
+}
+
+.skill div p {
+  font-size: x-large;
+}
+@media screen and (max-width: 700px) {
+  .purple p {
+    font-size: large;
+    margin: 0px 10%;
+  }
+
+  .purple h1 {
+    font-size: large;
+  }
+  .purple {
+    padding: 50px 0px 150px 0px;
+  }
+
+  .skill {
+    margin-top: -100px;
+    grid-template-columns: 1fr;
+  }
+  .skill div p {
+    font-size: medium;
+  }
+  .skill div h2 {
+    font-size: medium;
+  }
+  .middle {
+    border-top: 1px solid rgb(180, 180, 180);
+    border-bottom: 1px solid rgb(180, 180, 180);
+    border-left: 0px;
+    border-right: 0px;
+  }
+}

@@ -1,0 +1,48 @@
+.start {
+  font-family: "Dongle", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.start img {
+  width: 250px;
+  margin: 50px 0px;
+  border-radius: 200px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: 1s ease;
+}
+
+.start img:hover {
+  scale: 1.2;
+}
+
+.start p {
+  line-height: 20px;
+  font-size: larger;
+  color: gray;
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+.start h1 {
+  font-size: 3.5rem;
+  font-family: "Artifika", serif;
+  margin: 30px 0px 0px 0px;
+}
+
+@media screen and (max-width: 700px) {
+  .start h1 {
+    font-size: medium;
+  }
+  .start p {
+    font-size: small;
+  }
+
+  .start img {
+    width: 200px;
+  }
+}
